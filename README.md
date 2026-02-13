@@ -1,6 +1,6 @@
 # Super Trunfo em C
 
-Projeto desenvolvido como atividade acadêmica da disciplina de Programação em C.
+Projeto desenvolvido como atividade acadêmica da disciplina Introdução à Programação de Computadores.
 
 ## 📌 Objetivo
 
