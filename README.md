@@ -49,7 +49,7 @@ Novas funcionalidades implementadas neste nível:
 - Além dos dados básicos do nível Novato
 - Mostrar também densidade populacional e PIB per capita de cada cidade
 
-🔜 Próximo nível: Mestre
+## 🔜 Próximo nível: Mestre
 
 Em breve: funcionalidades avançadas para o Nível Mestre
 
