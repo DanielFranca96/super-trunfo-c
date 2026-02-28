@@ -48,7 +48,6 @@ Para cada carta:
 
 - Entrada de dados via `scanf`
 - Saída organizada com `printf`
-- Sem uso de `if`, `switch`, `for` ou `while`
 
 ---
 
@@ -132,16 +131,8 @@ Continuam sendo calculados:
 
 Novo atributo especial calculado para cada carta.
 
-### 📌 Fórmula
-
 ```
-Super Poder =
-população +
-área +
-PIB +
-número de pontos turísticos +
-PIB per capita +
-(1 / densidade populacional)
+Super Poder = população + área + PIB + número de pontos turísticos + PIB per capita + (1 / densidade populacional)
 ```
 
 ### 🔎 Regras Importantes
@@ -194,7 +185,6 @@ Exibindo claramente o resultado das comparações.
 Durante a evolução do projeto foram praticados:
 
 - Tipos de dados primitivos
-- `unsigned long int`
 - Operações matemáticas
 - Conversão de tipos (casting)
 - Operadores relacionais
