@@ -70,8 +70,8 @@ int main() {
     densidade2 = (float) populacao2 / area2; // Cálculo da densidade populacional da segunda cidade
     pibpercapita1 = ((float) pib1 / populacao1) * 1e9; // Cálculo do PIB per capita da primeira cidade (convertendo o PIB de bilhões para reais)
     pibpercapita2 = ((float) pib2 / populacao2) * 1e9; // Cálculo do PIB per capita da segunda cidade (convertendo o PIB de bilhões para reais)
-    poder1 = (float) populacao1 + area1 + pib1 + pontos_turisticos1 + densidade1 + pibpercapita1; // Cálculo do poder da primeira carta
-    poder2 = (float) populacao2 + area2 + pib2 + pontos_turisticos2 + densidade2 + pibpercapita2; // Cálculo do poder da segunda carta
+    poder1 = (float) populacao1 + area1 + pib1 + pontos_turisticos1 + ( 1 / densidade1) + pibpercapita1; // Cálculo do poder da primeira carta
+    poder2 = (float) populacao2 + area2 + pib2 + pontos_turisticos2 + ( 1 / densidade2) + pibpercapita2; // Cálculo do poder da segunda carta
 
 
     // Saída de dados
